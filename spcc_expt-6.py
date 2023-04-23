@@ -1,8 +1,4 @@
-#NAME- Chirag Mithilesh Varma
-#Division - TE4
-#Roll No- 58
-#Batch - D
-#Subject - System Programming and compiler construction
+
 # Define the grammar as a dictionary of production rules
 grammar = {
     'S': ['A B', 'C D'],
