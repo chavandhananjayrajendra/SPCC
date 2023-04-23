@@ -1,8 +1,4 @@
-#NAME- Chirag Mithilesh Varma
-#Division - TE4
-#Roll No- 58
-#Batch - D
-#Subject - System Programming and compiler constructionimport re
+
 import re
 # Evaluate constant expressions at compile-time
 def eval_const_expr(expr):
