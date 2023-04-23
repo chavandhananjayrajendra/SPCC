@@ -1,0 +1,12 @@
+count=0
+temp = ['X','Y', 'Z']
+n=int(input("Enter number of productions to be entered:"))    print (n)
+while(count < n):
+left=input("Enter left hand side of production" + str(count)) right=input("Enter right hand side of production" + left)
+if (right[0] == left):
+print("Left Recursion Present") str1 = right.split('|')
+alpha = str1[0] beta = str1[1]
+print(beta + temp[count]) print(alpha[1:] + temp[count] + '|#') 
+else:
+print("Left Recursion Not Present") 
+count=count+1
