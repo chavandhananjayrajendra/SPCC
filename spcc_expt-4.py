@@ -1,8 +1,3 @@
-#NAME- Chirag Mithilesh Varma
-#Division - TE4
-#Roll No- 58
-#Batch - D
-#Subject - System Programming and compiler construction
 
 gram = {}
 
