@@ -1,0 +1,21 @@
+MACRO
+        XYZ     &a
+        ST      1,&a
+        MEND
+        MACRO
+        MIT     &z
+        MACRO
+        &z &w
+        AR      4,&w
+        XYZ     ALL
+        MEND
+        ST      &w,ALL
+        MEND
+PROG    START
+        USING   *,15
+        MIT     HELLO
+        ST      2,3
+        HELLO   YALE
+YALE    EQU     5
+ALL     DC      f'3'
+        END
